@@ -15,12 +15,12 @@
 	<string>
 	"piece.h"
 
-1536620245 c:\users\lenovo\documents\cpp\chess_board\piece.h
+1536624170 c:\users\lenovo\documents\cpp\chess_board\piece.h
 	<ostream>
 	<string>
 	"square.h"
 
-1536618409 source:c:\users\lenovo\documents\cpp\chess_board\board.cpp
+1536620312 source:c:\users\lenovo\documents\cpp\chess_board\board.cpp
 	"board.h"
 	"square.h"
 	"pawn.h"
@@ -34,14 +34,14 @@
 	<cctype>
 	<cmath>
 
-1536620194 c:\users\lenovo\documents\cpp\chess_board\board.h
+1536623374 c:\users\lenovo\documents\cpp\chess_board\board.h
 	"square.h"
 	<iostream>
 
-1536620273 c:\users\lenovo\documents\cpp\chess_board\square.h
+1536623374 c:\users\lenovo\documents\cpp\chess_board\square.h
 	<iostream>
 
-1536619783 source:c:\users\lenovo\documents\cpp\chess_board\square.cpp
+1536620245 source:c:\users\lenovo\documents\cpp\chess_board\square.cpp
 	"square.h"
 	"piece.h"
 	<iostream>
@@ -52,16 +52,16 @@
 	"pawn.h"
 	"board.h"
 
-1536620273 c:\users\lenovo\documents\cpp\chess_board\pawn.h
+1536624170 c:\users\lenovo\documents\cpp\chess_board\pawn.h
 	<iostream>
 	"square.h"
 	"piece.h"
 
-1536619472 source:c:\users\lenovo\documents\cpp\chess_board\rook.cpp
+1536620301 source:c:\users\lenovo\documents\cpp\chess_board\rook.cpp
 	"rook.h"
 	"board.h"
 
-1536620273 c:\users\lenovo\documents\cpp\chess_board\rook.h
+1536624170 c:\users\lenovo\documents\cpp\chess_board\rook.h
 	<iostream>
 	"square.h"
 	"piece.h"
@@ -70,7 +70,7 @@
 	"bishop.h"
 	"board.h"
 
-1536620274 c:\users\lenovo\documents\cpp\chess_board\bishop.h
+1536624170 c:\users\lenovo\documents\cpp\chess_board\bishop.h
 	<iostream>
 	"square.h"
 	"piece.h"
@@ -79,21 +79,21 @@
 	"knight.h"
 	"board.h"
 
-1536620273 c:\users\lenovo\documents\cpp\chess_board\knight.h
+1536624170 c:\users\lenovo\documents\cpp\chess_board\knight.h
 	<iostream>
 	"square.h"
 	"piece.h"
 
-1536619472 source:c:\users\lenovo\documents\cpp\chess_board\queen.cpp
+1536620301 source:c:\users\lenovo\documents\cpp\chess_board\queen.cpp
 	"queen.h"
 	"board.h"
 
-1536620273 c:\users\lenovo\documents\cpp\chess_board\queen.h
+1536624170 c:\users\lenovo\documents\cpp\chess_board\queen.h
 	<iostream>
 	"square.h"
 	"piece.h"
 
-1536620273 c:\users\lenovo\documents\cpp\chess_board\king.h
+1536624170 c:\users\lenovo\documents\cpp\chess_board\king.h
 	<iostream>
 	"square.h"
 	"piece.h"

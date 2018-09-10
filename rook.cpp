@@ -1,8 +1,3 @@
-/*
- *  rook.cpp
- *  ChessProject
- *
- */
 #include "rook.h"
 #include "board.h"
 

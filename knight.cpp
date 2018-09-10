@@ -1,8 +1,3 @@
-/*
- *  knight.cpp
- *  ChessProject
- *
- */
 #include "knight.h"
 #include "board.h"
 

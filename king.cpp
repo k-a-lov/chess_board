@@ -1,8 +1,3 @@
-/*
- *  king.cpp
- *  ChessProject
- *
- */
 #include "king.h"
 #include "board.h"
 

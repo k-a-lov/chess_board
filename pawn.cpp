@@ -1,8 +1,3 @@
-/*
- *  pawn.cpp
- *  ChessProject
- *
- */
 #include <string>
 #include <iostream>
 

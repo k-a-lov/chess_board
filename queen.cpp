@@ -1,8 +1,3 @@
-/*
- *  queen.cpp
- *  ChessProject
- *
- */
 #include "queen.h"
 #include "board.h"
 

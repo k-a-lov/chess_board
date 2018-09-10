@@ -1,8 +1,3 @@
-/*
- *  bishop.cpp
- *  ChessProject
- *
- */
 #include "bishop.h"
 #include "board.h"
 
