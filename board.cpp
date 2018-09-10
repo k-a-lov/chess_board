@@ -65,7 +65,8 @@ bool Board::doMove() {
             { '5', 3 },
             { '6', 2 },
             { '7', 1 },
-            { '8', 0 }
+            { '8', 0 },
+            { '9', 9 }
         };
 
 	while (!stop)
@@ -85,23 +86,28 @@ bool Board::doMove() {
                     x1 = board_references.find(fromSquare.back())->second;
                     y1 = board_references.find(toupper(fromSquare.front()))->second;
 
+                if(x1 > 8 || y1 > 8 || isdigit(fromSquare.front()) || !isdigit(fromSquare.back())){
+                        cout << "Takie pole nie istnieje!\n";}
+                else{
                     if(getSquare(x1, y1)->occupied()){
                         if ((turn==WHITE && getSquare(x1, y1)->occupiedBy()->isWhite())
                             || (turn!=WHITE && !getSquare(x1, y1)->occupiedBy()->isWhite())){
-                                if(x1 > 8 || y1 > 8 || isdigit(fromSquare.front()) || !isdigit(fromSquare.back())){
-                                    cout << "Takie pole nie istnieje! \n";
-                                }
-                                else{
+
                                     st_from = true;
                                 }
+                                else
+                                    cout << "To nie jest Twoj pionek. Sprobuj jeszcze raz.\n" << endl;
                             }
-                        else
-                            cout << "To nie jest Twoj pionek. Sprobuj jeszcze raz." << endl;
+                            else cout << "To pole jest puste\n";
+
                     }
-                    else cout << "Podaj poprawne pole!\n";
+
+
                 }
                 else cout << "Podaj poprawne pole!\n";
             }
+
+
 
             while(!st_to){
                 cout << "Dokad chcesz sie ruszyc? (np. B5): ";
@@ -111,18 +117,19 @@ bool Board::doMove() {
                     x2 = board_references.find(toSquare.back())->second;
                     y2 = board_references.find(toupper(toSquare.front()))->second;
 
-                    if ((turn==WHITE && getSquare(x1, y1)->occupiedBy()->isWhite())
-                        || (turn!=WHITE && !getSquare(x1, y1)->occupiedBy()->isWhite())){
-
-                        if(x2 > 8 || y2 > 8 || isdigit(toSquare.front()) || !isdigit(toSquare.back())){
+                    if(x2 > 8 || y2 > 8 || isdigit(toSquare.front()) || !isdigit(toSquare.back())){
                             cout << "Takie pole nie istnieje! \n";
                         }
                         else{
-                            st_to = true;
+
+                        if ((turn==WHITE && getSquare(x1, y1)->occupiedBy()->isWhite())
+                            || (turn!=WHITE && !getSquare(x1, y1)->occupiedBy()->isWhite())){
+                                st_to = true;
                         }
-                    }
-                    else
+                        else
                         cout << "To nie jest Twoj pionek. Sprobuj jeszcze raz." << endl;
+                    }
+
                 }
                 else cout << "Podaj poprawne pole!\n";
             }
@@ -134,7 +141,7 @@ bool Board::doMove() {
             else
                 stop = true;
 
-	}
+        }
 
 	if (turn == BLACK){
 		turn = WHITE;}
