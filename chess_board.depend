@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1536260184 source:c:\users\lenovo\documents\cpp\chess_board\board_elem.cpp
+	"board_elem.h"
+	<iostream>
+
+1536260184 c:\users\lenovo\documents\cpp\chess_board\board_elem.h
+	<iostream>
+
+1536618869 source:c:\users\lenovo\documents\cpp\chess_board\main.cpp
+	<iostream>
+	<string>
+	"board.h"
+
+1536620245 source:c:\users\lenovo\documents\cpp\chess_board\piece.cpp
+	<string>
+	"piece.h"
+
+1536620245 c:\users\lenovo\documents\cpp\chess_board\piece.h
+	<ostream>
+	<string>
+	"square.h"
+
+1536618409 source:c:\users\lenovo\documents\cpp\chess_board\board.cpp
+	"board.h"
+	"square.h"
+	"pawn.h"
+	"rook.h"
+	"bishop.h"
+	"knight.h"
+	"queen.h"
+	"king.h"
+	<map>
+	<string>
+	<cctype>
+	<cmath>
+
+1536620194 c:\users\lenovo\documents\cpp\chess_board\board.h
+	"square.h"
+	<iostream>
+
+1536620273 c:\users\lenovo\documents\cpp\chess_board\square.h
+	<iostream>
+
+1536619783 source:c:\users\lenovo\documents\cpp\chess_board\square.cpp
+	"square.h"
+	"piece.h"
+	<iostream>
+
+1536620302 source:c:\users\lenovo\documents\cpp\chess_board\pawn.cpp
+	<string>
+	<iostream>
+	"pawn.h"
+	"board.h"
+
+1536620273 c:\users\lenovo\documents\cpp\chess_board\pawn.h
+	<iostream>
+	"square.h"
+	"piece.h"
+
+1536619472 source:c:\users\lenovo\documents\cpp\chess_board\rook.cpp
+	"rook.h"
+	"board.h"
+
+1536620273 c:\users\lenovo\documents\cpp\chess_board\rook.h
+	<iostream>
+	"square.h"
+	"piece.h"
+
+1536620302 source:c:\users\lenovo\documents\cpp\chess_board\bishop.cpp
+	"bishop.h"
+	"board.h"
+
+1536620274 c:\users\lenovo\documents\cpp\chess_board\bishop.h
+	<iostream>
+	"square.h"
+	"piece.h"
+
+1536620301 source:c:\users\lenovo\documents\cpp\chess_board\knight.cpp
+	"knight.h"
+	"board.h"
+
+1536620273 c:\users\lenovo\documents\cpp\chess_board\knight.h
+	<iostream>
+	"square.h"
+	"piece.h"
+
+1536619472 source:c:\users\lenovo\documents\cpp\chess_board\queen.cpp
+	"queen.h"
+	"board.h"
+
+1536620273 c:\users\lenovo\documents\cpp\chess_board\queen.h
+	<iostream>
+	"square.h"
+	"piece.h"
+
+1536620273 c:\users\lenovo\documents\cpp\chess_board\king.h
+	<iostream>
+	"square.h"
+	"piece.h"
+
+1536620301 source:c:\users\lenovo\documents\cpp\chess_board\king.cpp
+	"king.h"
+	"board.h"
+
